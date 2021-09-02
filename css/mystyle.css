@@ -1,0 +1,116 @@
+/* image on home page */
+.myimg {
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    margin-left: 93px;
+    margin-top: 50px;
+    float: left;
+  }
+
+/* navigation bar */
+.navigation {
+    overflow: hidden;
+    background-color: rgb(255, 254, 254);
+}
+
+/* navigation bar <a> tag */
+.navigation a {
+    float: right;
+    color: #070707;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* <a> tag mouse over  */
+.navigation a:hover {
+    background-color: rgb(241, 151, 151);
+    color: black;
+}
+
+/* Home page about contents */
+.about{
+    margin-top: 100px;
+    margin-left: 50%;
+}
+
+/* Home page about <h1> tag */
+.about h1{
+    font-size: 40px;
+}
+
+/* Home page about <h3> tag */
+.about h3{
+    font-size: 30px;
+}
+
+/* Home page about <button> tag */
+.about button {
+    border: none;
+    color: white;
+    padding: 27px;
+    text-align: center;
+    font-size: 16px;
+    margin: 13px 2px;
+    cursor: pointer;
+    border-radius: 55%;
+}
+
+/* Footer and image grids */
+.footer-main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+.footer-main-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: left;
+}
+
+/* table properties */
+table {
+    font-family: arial, sans-serif;
+    width: 80%;
+    margin-left: 10%;
+}
+  
+td {
+    border: 0px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* image grids */
+div.gallery {
+    margin: 5px;
+    border: 5px solid #ccc;
+}
+  
+div.gallery img {
+    width: 100%;
+    height: 200px;
+}
+
+/* <h1> tag in all pages*/
+h1{
+    font-family: 'Brush Script MT', cursive;
+    color: darkblue;
+}
+/* <h2> tag in all pages*/
+h2{
+    font-family: Copperplate, Papyrus, fantasy;
+}
+/* biography page about content */
+.bio-about{
+    border-style: double;
+    border-color: darkblue;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+.video{
+    margin-left: 395px;
+}
